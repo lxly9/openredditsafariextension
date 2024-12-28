@@ -9,7 +9,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 function afterNavigate() {
     var locationArr = window.location.pathname.split("/")
     if (locationArr.includes("r") || locationArr.includes("user")) {
-        window.location.href = `reddit://${window.location.pathname}`
+        window.location.href = `winston://${window.location.pathname}`
     }
 }
 
