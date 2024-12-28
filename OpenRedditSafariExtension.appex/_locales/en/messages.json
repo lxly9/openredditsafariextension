@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "Open in Reddit",
+        "message": "Open in Winston",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "Displays an Open in Reddit alert for sideloaded Reddit",
+        "message": "Displays an Open in Winston alert for sideloaded Winston when on reddit.com",
         "description": "Description of what the extension does."
     }
 }
